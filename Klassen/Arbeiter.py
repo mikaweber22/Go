@@ -4,4 +4,5 @@ class Arbeiter:
         self.funktion = funktion
         print(f"Hallo! Ich bin {self.name}, zu Ihren Diensten als {self.funktion}!")
 
+
 karl = Arbeiter("Karl", "Putzhilfe")
