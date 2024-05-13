@@ -1,3 +1,3 @@
-1. WIEDERHOLUNG: Variablen und primitive Datentypen
-2. Was sind Datenstrukturen?
-    - Bonus: Beispiele
+1. Was sind Datenstrukturen?
+2. Welche Datenstrukturen haben wir kennengelernt?
+3. Was sind die Unterschiede zwischen den Datenstrukturen?
