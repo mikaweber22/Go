@@ -84,9 +84,9 @@ for teilnehmer in kursteilnehmer_lucy:
 
 
 # Lucy: Paul's Idee
+# kursteilnehmer ist ein Dictionary
+# Deshalb rufen wir die Werte mit den Schlüsseln ab
 print("\n Lucy's Idee")
 for kursteilnehmer in kursteilnehmer_paul:
-    # kursteilnehmer ist ein Dictionary
-    # Deshalb rufen wir die Werte mit den Schlüsseln ab
     lieblingsessen = kursteilnehmer["lieblingsessen"]
     print(lieblingsessen)
