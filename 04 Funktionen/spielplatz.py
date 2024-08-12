@@ -13,7 +13,7 @@ def satzbausteine():
 
 
 for i in range(5):
-    satzbausteine()
+    subjekt, prädikat_und_objekt, adverbialbestimmungen, abverb, twist = satzbausteine()
 
     satz = (
         subjekt
