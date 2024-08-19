@@ -33,3 +33,4 @@ for i in range(5):
     satzbausteine = erstelle_satzbausteine()
     satz = erstelle_satz(satzbausteine)
     print(satz + "\n")
+

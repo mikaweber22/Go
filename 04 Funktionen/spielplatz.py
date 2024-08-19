@@ -29,3 +29,20 @@ for i in range(5):
     )
 
     print(satz + "\n")
+
+
+def baue_haus(ziegel, steine, farbe):
+    print(
+        f"Ich baue ein Haus mit {ziegel} Ziegeln, {steine} Steinen und {farbe} Farbe."
+    )
+
+    wand1 = "Erste Wand aus " + ziegel + " Ziegeln"
+    wand2 = "Zweite Wand aus " + steine + " Steinen"
+    wand3 = "Dritte Wand aus " + farbe + " Farbe"
+    haus = wand1 + " " + wand2 + " " + wand3
+
+    return haus
+
+
+
+haus = baue_haus("Ziegel", "Steine", "Farbe")
