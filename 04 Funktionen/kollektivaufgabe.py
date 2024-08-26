@@ -26,12 +26,13 @@ def antworten_kriegen(fragen):
 
 
 antworten = antworten_kriegen(unsere_fragen)
+print(antworten)
 
 
 # 2. Durchschnitt berechnen
 # antworten: [[1,2,3],[4,5,6],[7,8,9]]
 def durchschnitt_berechnen(antworten):
-    durchschnitte = np.zeros(len(antworten))
+    durchschnitte = np.zeros(len(antworten[0]))
     for antwort_einer_person in antworten:
         for i, antwort in enumerate(antwort_einer_person):
             durchschnitte[i] += antwort
@@ -42,9 +43,13 @@ def durchschnitt_berechnen(antworten):
 
 
 durchschnitte = durchschnitt_berechnen(antworten)
+print(durchschnitte)
 
 
 # 3. Antworten als Datei speichern
 def in_datei_speichern(durchschnitte):
     datei = open("textdatei.txt", "w")
-    datei.write(durchschnitte)
+    datei.write(str(durchschnitte))
+
+
+in_datei_speichern(durchschnitte)
